@@ -10,10 +10,13 @@ service:
   framework: Express
   description: Shows a list of all outstanding TLS certificates deployed in our infrastructure,
     as well as their expiry dates.
-  aliases: 
+  aliases:
+  - TLS-Certificate-Manager
+  - tls-certificate-manager
+  - tls_certificate_manager
   tags: 
   repositories:
-  - name: OL-Demo/tls-cert-manager
+  - name: Todd-OL-Scratch/tls-cert-manager
     path: "/"
     provider: github
   tools:
