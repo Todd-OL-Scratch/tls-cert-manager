@@ -1,7 +1,7 @@
 ---
 version: 1
 service:
-  name: tls-certificate-anager
+  name: tls-certificate-manager
   lifecycle: generally_available
   tier: tier_1
   product: 
