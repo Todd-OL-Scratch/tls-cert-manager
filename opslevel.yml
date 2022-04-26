@@ -1,9 +1,9 @@
 ---
 version: 1
 service:
-  name: TLS Certificate Manager
+  name: tls-certificate-anager
   lifecycle: generally_available
-  tier: tier_3
+  tier: tier_1
   product: 
   owner: internal_tools
   language: Node.js
@@ -11,9 +11,9 @@ service:
   description: Shows a list of all outstanding TLS certificates deployed in our infrastructure,
     as well as their expiry dates.
   aliases:
-  - TLS-Certificate-Manager
-  - tls-certificate-manager
   - tls_certificate_manager
+  - tls-cert-manager
+  - tls_cert_manager
   tags: 
   repositories:
   - name: Todd-OL-Scratch/tls-cert-manager
